@@ -4,120 +4,26 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400; 
 }
-.carusel_item_size {
-  width: 100%;
-  height: 600px;
-}
-.carusel_item_size h1 {
-  text-transform: capitalize;
-  font-size: 55px;
-}
-.btn_color {
-  margin: 5px 0;
-  border-radius: 30px;
-  color: #fff;
-  background-color: #1bbca3;
-  border: none;
-  outline: none;
-  padding: 10px 20px;
-}
-.btn_color2 {
-    margin: 5px 0;
-    border-radius: 10px;
-    color: #fff;
-    background-color: #1bbca3;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    margin: 10px 0;
-  }
-.SECTION_PARENT {
-  position: relative;
-}
-.section_bg {
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  opacity: 0.7;
-}
-.carousel_item {
-  z-index: 99;
-}
-.home_active {
-  background-color: #1bbca3;
-  color: #fff;
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-
-.contact-info {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    margin-bottom: 20px;
-  }
-  .contact-form {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  .form-control {
-    border-radius: 0;
-  }
-  .btn-primary {
-    background-color: #1bbca3;
-    border-color: #1bbca3;
-  }
-  .btn-primary:hover {
-    background-color:#1bbca3;
-    border-color: #1bbca3;
-  }
-
-  .form-btn{
-    display: flex;
-    justify-content: center;
-  }
-/* Footer Section Start */
-.footer {
-    background-color: #0a0a0a; /* Matches the dark theme */
+.footer a{
+  text-decoration: none;
+  color: white;
+  line-height: 2.5rem;
 }
 
-.footer h5 {
-    font-weight: bold;
-    margin-bottom: 1rem;
+.icons{
+  color: gray;
+  border:2px solid gray;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
 }
 
-.footer ul {
-    padding: 0;
-    list-style: none;
+.icons svg{
+margin: 8px;
 }
-
-.footer ul li a {
-    font-size: 14px;
-    transition: color 0.2s;
-}
-
-.footer ul li a:hover {
-    color: #ffc107; /* Highlight color */
-}
-
-.footer .bi {
-    font-size: 1.5rem;
-    transition: color 0.3s;
-}
-
-.footer .bi:hover {
-    color: #ffc107; /* Highlight color */
-}
-.icon_border{
-    border: 2px solid gray;
-    padding: 8px 10px;
-    font-size: 25px;
-    border-radius: 50%;
-}
-/* Footer Section End */
